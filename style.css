@@ -83,6 +83,9 @@ align-items: center;
 form .button{
     height: 45px;
     margin: 45px 0;
+     display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 form .button input{
     height: 100%;
