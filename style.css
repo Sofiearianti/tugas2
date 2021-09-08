@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #6a3081);
+    background: linear-gradient(135deg, #328f73d8, #0a2b9b);
 } 
 .container{
     max-width:  700px;
@@ -28,10 +28,10 @@ body{
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    background: linear-gradient(135deg, #71b7e6, #6a3081) ;
+    bottom: -10px;
+    height: 6px;
+    width: 135px;
+    background: linear-gradient(135deg, #328f73d8, #0a2b9b) ;
 }
 .container form .user-details{
     display: flex;
@@ -61,7 +61,7 @@ form .user-details .input-box{
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
-    border-color: #9b59b6;
+    border-color: #0a2b9b;
 }
 form .gender-detail .gender-title{
     font-size: 20px;
@@ -97,10 +97,10 @@ form .button input{
     font-weight: 500;
     border-radius: 5px;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, #71b7e6, #6a3081);
+    background: linear-gradient(135deg, #328f73d8, #0a2b9b);
 }
 form .button input:hover{
-    background: linear-gradient(-135deg, #71b7e6, #6a3081);
+    background: linear-gradient(-135deg, #328f73d8, #0a2b9b);
 }
 form .status-detail .status-title{
     font-size: 18px;
